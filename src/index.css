@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #46529d;
+  
+}
+.container{
+  width: 70%;
+  margin: 10% auto;
+  text-align: center;
+  font-size: large;
+}
+.header{
+  color: aliceblue;
+}
+p{
+  margin: 0;
+  text-align: center;
+  padding: 20px 0px;
+  color:aliceblue;
+  font-weight: 500;
+  font-size: large;
+}
+.list span{
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0px;
+  border: .3px solid gainsboro;
+  
+}
+.list span.title{
+  background-color: #2ebaee;
+  color: aliceblue;
+  font-weight: 500;
+}
+.list span.name,
+form input[type=text]{
+  width: 55%;
+}
+.list span.age,
+form input[type=number]{
+  width: 30%;
+}
+.list span.action,
+form input[type=submit]{
+  background-color: #2ebaee;
+  color: aliceblue;
+  width: 10%;
+}
+.list span.item{
+  color:#46529d; 
+  background-color: aliceblue;
+}
+.list span.icon{
+  color: red;
+  background-color: aliceblue;
+  
+}
+form input{
+  padding:10px 0px;
+  outline: none;
+  font-size: 14px;
+  border: .3px solid aliceblue;
+  background-color: gainsboro;
+
+}
+form input::placeholder{
+  padding: 10px;
+}
